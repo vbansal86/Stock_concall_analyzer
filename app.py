@@ -31,4 +31,4 @@ if prompt:
 if st.session_state["chat_answer_history"]: 
     for user_query , generated_response in zip(st.session_state["user_prompt_history"],st.session_state["chat_answer_history"]):
         message(user_query,is_user=True)
-        message(generated_response)
+        message(generated_response) 
